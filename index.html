@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Sheet Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="upload-area" class="upload-area">
+            <input id="file-input" type="file" accept="image/jpeg, image/png, image/heic, image/webp" multiple>
+            <span>Drop your files here or click to upload.</span>
+        </div>
+        
+        <div id="contact-sheet-container">
+            <div id="contact-sheet" class="contact-sheet"></div>
+        </div>
+        
+        <button id="download-btn" class="download-btn" disabled>Download as PNG</button>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/heic2any/dist/heic2any.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
