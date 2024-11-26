@@ -63,7 +63,6 @@ body {
 .contact-sheet img {
     width: 150px;
     height: 150px;
-    object-fit: cover; /* Crop images to square */
     border-radius: 10px;
     border: 1px solid #ccc;
     margin-top: 5px;
